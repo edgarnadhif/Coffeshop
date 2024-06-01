@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Plus+Jakarta+Sans:wght@400;700&family=Quicksand:wght@400;600&display=swap');
+* {
+  box-sizing: border-box;
+  background-color: #0000;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+header {
+  background-color:  white;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 10px 20px;
+  margin: 0px;
+  width: 100%;
+}
+
+.logo {
+  font-size: 40px;
+  
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  transition: color 0.3s ease-in-out;
+  margin: 20px;
+  padding: 12px;
+  font-weight: lighter;
+}
+
+nav a:hover {
+  color: white;
+  background-color: #435585;
+  padding: 12px;
+  border-radius: 20px;
+}
+
+.content {
+  display: flex;
+  margin: 100px 30px 30px 30px;
+}
+
+article {
+  margin: 0 30px;
+}
+
+.sambutan {
+  max-width: 1000px;
+}
+
+.sambutan h1 {
+  font-size: 50px;
+}
+
+.menu-item {
+  box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 30px;
+  margin-top: 20px;
+  max-width: 1000px;
+  margin:10px 40px 20px 20px;
+  margin-left: 6px;
+  
+}
+
+.menu-item img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+
+.menu-item h4{
+  border: solid 1px #acc;
+  background-color: #4CAF50;
+  display:inline-block;
+  border-radius : 20px;
+  border-color:#4CAF50;
+}
+
+.menu-item h4 a {
+  padding: 12px;
+  margin: 20px;
+  color: #ffff;
+  text-decoration: none;
+
+}
+
+.promo-main{
+padding: 30px;
+display: flex;
+justify-content: space-between;
+margin:10px;
+}
+
+.card{
+  margin: 30px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+aside {
+  box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  height: fit-content;
+  padding: 30px;
+  margin-top: 20px;
+  width: 300px;
+  background-color: #fff;
+}
+
+.promo h2 {
+  margin-bottom: 10px;
+}
+
+.promo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+
+.card {
+  margin: 30px;
+}
+
+.about {
+
+  box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 30px;
+  margin-top: 20px;
+  max-width: 1000px;
+}
+
+footer{
+flex-wrap: nowrap;
+
+}
+footer p {
+  margin: 30px;
+  font-size: 18px;
+  color: #555;
+  transition: color 0.3s ease-in-out;
+  text-decoration: none;
+  
+}
+
+footer a {
+  text-decoration: none;
+  color: blue;
+}
+
+footer img{
+  width:15px;
+  height:15px;
+}
+footer p:hover {
+  color: #ff6600;
+}
+
+
